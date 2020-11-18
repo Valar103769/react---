@@ -1,0 +1,49 @@
+.hero{
+  align-items: stretch;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero.is-primary{
+  background-color: #00d1b2;
+  color:#ffffff;
+}
+.hero-body{
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}
+
+.hero.is-primary .title {
+    color: #fff;
+}
+
+.title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.hero.is-primary .subtitle{
+  color: #ffffffe6;
+}
+.title:not(.is-spaced)+.subtitle {
+  margin-top: -1.25rem;
+}
+
+.subtitle {
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height:1.25;
+}
+
+.section {
+    padding: 3rem 1.5rem;
+}
+article, aside, figure, footer, header, hgroup, section {
+    display: block;
+}

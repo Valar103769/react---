@@ -1,17 +1,16 @@
-.App {
-  text-align: center;
+.container{
+  flex-grow:1;
+  margin:0 auto;
+  position: relative;
+  width:auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (min-width: 1408px){
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 1344px;
+}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
